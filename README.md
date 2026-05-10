@@ -15,6 +15,10 @@ No existing mod manager allowed us to:
 So this tool does exactly that: it uses **symbolic links** (symlinks) to overlay the fix folder on top of the game folder.  
 When you launch, it temporarily moves original files to `%TEMP%`, creates links to the fix files, and restores everything when the game exits (or thanks to the crash recovery button).
 
+## Screenshot
+
+![Main window](screenshot.png)
+
 ## Requirements
 
 - Windows (tested on 10/11)
