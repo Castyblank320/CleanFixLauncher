@@ -1,4 +1,4 @@
-# Clean Fix Launcher
+# Clean Fix Launcher – One‑click online‑fix overlay for Steam games
 
 > **⚠️ Disclaimer: This project was written with AI (GitHub Copilot / ChatGPT).**  
 > It is **not** a professional or serious tool. It was created for personal use and for a small group of friends who wanted a quick way to apply **online-fixes** to Steam games without touching the original installation.
