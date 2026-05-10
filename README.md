@@ -1,4 +1,4 @@
-# Universal Mod Manager (UMM)
+# Clean Fix Launcher
 
 > **⚠️ Disclaimer: This project was written entirely by AI (GitHub Copilot / ChatGPT).**  
 > It is **not** a professional or serious tool. It was created for personal use and for a small group of friends who wanted a quick way to toggle **online-fixes** on Steam games without messing with the original installation.
@@ -22,7 +22,7 @@ Because almost every tool out there is designed for **specific games** or expect
 - You have an online‑fix that replaces the main `.exe` or core `.dll` files.
 - The fix has its own folder structure that doesn't match what the tool expects.
 
-**Universal Mod Manager doesn't care what game it is.**  
+**Clean Fix Launcher doesn't care what game it is.**  
 It doesn't ask for a "mods folder" or a "profile". It just takes **your game folder** and **your fix folder** – both must have the same internal structure – and overlays the fix at runtime. That's it. Works for any game, any fix, any folder layout.
 
 ## Screenshot
@@ -42,7 +42,7 @@ It doesn't ask for a "mods folder" or a "profile". It just takes **your game fol
 4. The game starts with the fix active. When you close the game, original files are restored automatically.
 5. If your PC crashes while the fix was active, use `♻ Restore Orphaned Backups` to recover the original files.
 
-All data is saved in `%AppData%\UniversalModManager\config.json`.
+All data is saved in `%AppData%\CleanFixLauncher\config.json`.
 
 ## Limitations
 

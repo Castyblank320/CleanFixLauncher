@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Security.Principal;
 using System.Windows.Forms;
 
-namespace UniversalModManager;
+namespace CleanFixLauncher;
 
 static class Program
 {

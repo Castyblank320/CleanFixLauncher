@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Text.Json;
 
-namespace UniversalModManager;
+namespace CleanFixLauncher;
 
 public partial class Form1 : Form
 {
@@ -56,7 +56,7 @@ public partial class Form1 : Form
     public Form1()
     {
         string appData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-        string folder = Path.Combine(appData, "UniversalModManager");
+        string folder = Path.Combine(appData, "CleanFixLauncher");
         Directory.CreateDirectory(folder);
         configPath = Path.Combine(folder, "config.json");
 
@@ -86,7 +86,7 @@ public partial class Form1 : Form
 
     private void InitializeComponent()
     {
-        this.Text = "Universal Mod Manager - Virtual Layer for Games";
+        this.Text = "Clean Fix Launcher - Apply online‑fixes without touching original files";
         this.Size = new Size(900, 650);
         this.MinimumSize = new Size(800, 550);
         this.StartPosition = FormStartPosition.CenterScreen;
@@ -564,7 +564,7 @@ public partial class Form1 : Form
 
     private Task<bool> ApplyVirtualLayer(string gamePath, string fixPath)
     {
-        tempBackupPath = Path.Combine(Path.GetTempPath(), "UniversalModManager_" + Guid.NewGuid().ToString("N"));
+        tempBackupPath = Path.Combine(Path.GetTempPath(), "CleanFixLauncher_" + Guid.NewGuid().ToString("N"));
         Directory.CreateDirectory(tempBackupPath);
         createdSymlinks.Clear();
         File.WriteAllText(Path.Combine(tempBackupPath, ".gamepath"), gamePath);
@@ -638,7 +638,7 @@ public partial class Form1 : Form
     private void BtnRestoreBackups_Click(object? sender, EventArgs e)
     {
         string tempFolder = Path.GetTempPath();
-        var orphanedBackups = Directory.GetDirectories(tempFolder, "UniversalModManager_*")
+        var orphanedBackups = Directory.GetDirectories(tempFolder, "CleanFixLauncher_*")
                                        .Where(dir => !IsBackupFromCurrentSession(dir))
                                        .ToList();
 
