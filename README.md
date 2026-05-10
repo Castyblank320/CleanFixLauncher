@@ -45,10 +45,6 @@ All data is saved in `%AppData%\UniversalModManager\config.json`.
 This tool deletes symlinks and moves files. It worked for us, but use at your own risk.  
 Always keep a backup of important game files if you are worried.
 
-## License
-
-Do whatever you want. It's just code.
-
 ---
 
 *Made for fun, by a human + AI, for a very specific use case.*
