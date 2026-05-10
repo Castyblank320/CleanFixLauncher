@@ -5,8 +5,8 @@
 
 ## Why this exists
 
-I buy games on Steam, but sometimes we need to apply a “fix” (a crack, an online‑fix) to play with friends.  
-Every time we want to use the fix, we have to manually copy files into the game folder, overwriting the originals. Then, to go back to the legit Steam version, we have to restore those files by hand. This back‑and‑forth is tedious and error‑prone.
+I buy games on Steam, but sometimes I want to apply a “fix” (a crack, an online‑fix) to play with friends.  
+Every time I want to use the fix, I have to manually copy files into the game folder, overwriting the originals. Then, to go back to the legit Steam version, I have to restore those files by hand. This back‑and‑forth is tedious and error‑prone.
 
 No existing tool made this easy. So I built a launcher that:
 
