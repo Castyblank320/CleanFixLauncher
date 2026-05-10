@@ -21,10 +21,6 @@ No existing tool made this easy. So I built a launcher that:
 - While the game runs, the fix files overlay the original ones (via symbolic links).  
 - When you close the game, it automatically restores the original files.
 
-**What it does NOT do:**  
-- It does **not** allow toggling between vanilla and fixed versions from inside the tool.  
-- It does **not** launch the unmodified game – for that, simply run the game normally (via Steam or its `.exe`).
-
 ## Why not just use an existing mod manager?
 
 Most mod managers are designed for **specific games** or expect **hardcoded folder names** (`Mods/`, `plugins/`, etc.). They fail when a fix replaces the main `.exe` or core `.dll` – which is exactly what online‑fixes do.
