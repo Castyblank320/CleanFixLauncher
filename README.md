@@ -34,10 +34,6 @@ When you launch, it temporarily moves original files to `%TEMP%`, creates links 
 
 All data is saved in `%AppData%\UniversalModManager\config.json`.
 
-## Screenshot
-
-*(You can add a screenshot here later)*
-
 ## Limitations
 
 - Requires administrator rights (symlinks need it).
