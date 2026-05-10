@@ -15,6 +15,16 @@ No existing mod manager allowed us to:
 So this tool does exactly that: it uses **symbolic links** (symlinks) to overlay the fix folder on top of the game folder.  
 When you launch, it temporarily moves original files to `%TEMP%`, creates links to the fix files, and restores everything when the game exits (or thanks to the crash recovery button).
 
+## Why not just use an existing mod manager or tool?
+
+Because almost every tool out there is designed for **specific games** or expects **hardcoded folder names** (like `Mods/`, `plugins/`, `data/`). They fail when:
+
+- You have an online‑fix that replaces the main `.exe` or core `.dll` files.
+- The fix has its own folder structure that doesn't match what the tool expects.
+
+**Universal Mod Manager doesn't care what game it is.**  
+It doesn't ask for a "mods folder" or a "profile". It just takes **your game folder** and **your fix folder** – both must have the same internal structure – and overlays the fix at runtime. That's it. Works for any game, any fix, any folder layout.
+
 ## Screenshot
 
 ![Main window](screenshot.png)
