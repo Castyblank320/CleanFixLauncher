@@ -10,6 +10,8 @@ public partial class Form1 : Form
     {
         public string Name { get; set; } = "";
         public string FolderPath { get; set; } = "";
+
+        public override string ToString() => Name;
     }
 
     private class Game
@@ -18,6 +20,8 @@ public partial class Form1 : Form
         public string GamePath { get; set; } = "";
         public string ExePath { get; set; } = "";
         public List<Fix> Fixes { get; set; } = new();
+
+        public override string ToString() => Name;
     }
 
     private class ConfigData
