@@ -14,9 +14,8 @@ No existing tool made this easy. So I built a launcher that:
 - Applies the fix temporarily at launch – no permanent changes.
 - Works with any game, any fix folder structure.
 
-## What this tool does (and doesn't do)
+## What this tool does
 
-**What it does:**  
 - Lets you launch a game with an online‑fix active, without manually copying or overwriting any files.  
 - While the game runs, the fix files overlay the original ones (via symbolic links).  
 - When you close the game, it automatically restores the original files.
