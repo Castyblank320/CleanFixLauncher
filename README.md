@@ -1,6 +1,6 @@
 # Clean Fix Launcher
 
-> **⚠️ Disclaimer: This project was written entirely by AI (GitHub Copilot / ChatGPT).**  
+> **⚠️ Disclaimer: This project was written with AI (GitHub Copilot / ChatGPT).**  
 > It is **not** a professional or serious tool. It was created for personal use and for a small group of friends who wanted a quick way to toggle **online-fixes** on Steam games without messing with the original installation.
 
 ## Why this exists
