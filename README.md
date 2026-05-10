@@ -23,8 +23,7 @@ No existing tool made this easy. So I built a launcher that:
 
 **What it does NOT do:**  
 - It does **not** allow toggling between vanilla and fixed versions from inside the tool.  
-- It does **not** launch the unmodified game – for that, simply run the game normally (via Steam or its `.exe`).  
-- It does **not** permanently modify the game folder. Your Steam installation stays 100% clean.
+- It does **not** launch the unmodified game – for that, simply run the game normally (via Steam or its `.exe`).
 
 ## Why not just use an existing mod manager?
 
